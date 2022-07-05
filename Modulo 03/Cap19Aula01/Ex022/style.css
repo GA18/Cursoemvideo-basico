@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('Imagens/wallpaper006.jpg');
+}
+
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+#b1 {
+    background-color: aliceblue;
+}
+
+#b2 {
+    background-image: linear-gradient(to bottom, red, green);
+}
+
+#b3 {
+    background-image: url('Imagens/pattern001.png');
+}
