@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando tags</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgba(21, 68, 68, 0.425);
+        }
+
+        nav > a {
+            text-decoration: none;
+            margin: 30px
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        aside {
+            background-color: darkgrey;
+        }
+
+        footer > p {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 10px;
+        }
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tech</p>
+        </section>
+        <section>
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores ipsam debitis dicta culpa quis perspiciatis rerum, non distinctio magni ut rem ratione reprehenderit necessitatibus facere, voluptate quos consequatur neque enim!</p>
+                <aside>
+                    <p>Artigo Escrito por fulano</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvendo site no curso em video</p>
+    </footer>
+</body>
+</html>
