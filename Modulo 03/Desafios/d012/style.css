@@ -5,81 +5,124 @@
     src: url('Fonts/Passion_One/PassionOne-Bold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Sriracha';
+    src: url('Fonts/Sriracha/Sriracha-Regular.ttf') format('truetype');
+}
+
 * {
     margin: 0%;
     padding: 0%;
 }
 
-body {
+html, body {
     background-color: black;
+    width: 90vw;
 }
 
 .background01 {
     background: black url('pacote-d012/imagens/background001.jpg') center right no-repeat fixed;
     background-size: cover;
-    max-height: 100%;
-    max-width: 100%;
 }
 
 .background02 {
-    max-width: 100%;
-    max-height: 100%;
     background: black url('pacote-d012/imagens/background002.jpg') center right no-repeat fixed;
     background-size: cover;
 }
 
+main {
+    width: 90vw;
+}
+div {
+    width: 90vw;
+}
+
 header {
-    background-color: black;
-    padding-top: 10px;
-    width: 100%;
-    height: 200px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    height: 20vh;
 }
 
 header > h1 {
-    font: normal bold 95px 'PassionOne', Arial;
-    color: white;
-    text-align: center;
+    font: normal bold 10vw 'PassionOne', Arial;
 }
 
 header > p {
-    font: normal bold 13px verdana, Arial;
-    color: white;
-    text-align: center;
+    font: normal bolder 16px verdana, Arial;
 }
 
-p {
-    line-height: 16px;
+header > p > a {
+    font: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
 }
 
 .caixa {
-    height: 50vh;
+    height: 150vh;
     background: white;
 }
 
+.caixaPrincipal {
+    height: 75vh;
+    background: white;
+}
+
+.caixaPrincipal > p {
+    position: relative;
+    top: 12.5vw;
+    left: 5vw;
+    right: 0vw;
+    font: normal 3.2vw 'Sriracha', Arial;
+    line-height: 3.2vw;
+}
+
 .caixa > p {
-    top: 100px;
-    left: 25px;
+    position: relative;
+    top: 25vw;
+    left: 5vw;
+    right: 0vw;
+    font: normal 3.2vw 'Sriracha', Arial;
+    line-height: 3.2vw;
 }
 
-#TelaTransparente01 {
-    height: 50vh;
+.caixaTransparente {
+    height: 60vw;
     background: transparent;
 }
 
-#TelaTransparente02 {
-    height: 50vh;
-    background: transparent;
+.textoEncaixado {
+    position: relative;
+    top: 8vw;
+    left: 5vw;
+    background-color: #00000065;
+    width: 38vw;
+    height: 45vw;
+    color: white;
+    font: normal 3.2vw 'Sriracha', Arial;
+    line-height: 3.2vw;
+    text-align: left;
+    padding: 5px;
+    
 }
 
 footer {
+    position: relative;
+    top: 5px;
     width: auto;
-    height: auto;
+    height: 30px;
     background-color: black;
     color: white;
     text-align: center;
+    font: normal 18px Arial;
 }
 
 footer > a {
+    color: white;
     text-decoration: none;
 }
 
