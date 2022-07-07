@@ -55,41 +55,45 @@ header > p > a:hover {
     text-decoration: underline;
 }
 
+div {
+    height: 50vw;
+}
+
 .caixa {
-    height: 150vw;
+    height: 100vw;
     background: white;
+    padding: 8vh 3vh;
+    font: normal 3.2vw 'Sriracha', Arial;
+    line-height: 3.2vw;
 }
 
 .caixaPrincipal {
-    height: 75vw;
+    height: 50vw;
     background: white;
     font: normal 3.2vw 'Sriracha', Arial;
     line-height: 3.2vw;
-}
-
-.caixa > p {
-    font: normal 3.2vw 'Sriracha', Arial;
-    line-height: 3.2vw;
-}
-
-div {
-    height: 80vw;
+    padding: 10vh 3vh;
 }
 
 .textoEncaixado {
-    background-color: #00000065;
+    background-color: #00000085;
     width: 38vw;
-    height: 45vw;
-    color: white;
-    font: normal 3.2vw 'Sriracha', Arial;
+    height: 42vw;
     line-height: 3.2vw;
     text-align: left;
-    padding: 5px;
+    padding: 1vh;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.70);
+}
+
+.caixaTransparente {
+    font: normal 3.2vw 'Sriracha', Arial;
+    color: white;
+    padding: 10vh 3vh;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 footer {
-    width: auto;
-    height: 30px;
+    height: 3vh;
     background-color: black;
     color: white;
     text-align: center;
