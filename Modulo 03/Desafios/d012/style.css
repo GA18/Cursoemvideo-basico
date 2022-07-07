@@ -17,6 +17,7 @@
 
 html, body {
     background-color: black;
+    position: relative;
     width: 90vw;
 }
 
@@ -30,25 +31,22 @@ html, body {
     background-size: cover;
 }
 
-main {
-    width: 90vw;
-}
-div {
-    width: 90vw;
-}
-
 header {
     background-color: #000000;
     color: white;
     text-align: center;
-    height: 20vh;
+    height: 22vw;
 }
 
 header > h1 {
+    position: relative;
+    top: 4vw;
     font: normal bold 10vw 'PassionOne', Arial;
 }
 
 header > p {
+    position: relative;
+    top: 4vw;
     font: normal bolder 16px verdana, Arial;
 }
 
@@ -63,12 +61,12 @@ header > p > a:hover {
 }
 
 .caixa {
-    height: 150vh;
+    height: 150vw;
     background: white;
 }
 
 .caixaPrincipal {
-    height: 75vh;
+    height: 75vw;
     background: white;
 }
 
@@ -76,7 +74,7 @@ header > p > a:hover {
     position: relative;
     top: 12.5vw;
     left: 5vw;
-    right: 0vw;
+    right: 5vw;
     font: normal 3.2vw 'Sriracha', Arial;
     line-height: 3.2vw;
 }
@@ -85,12 +83,13 @@ header > p > a:hover {
     position: relative;
     top: 25vw;
     left: 5vw;
-    right: 0vw;
+    right: 5vw;
     font: normal 3.2vw 'Sriracha', Arial;
     line-height: 3.2vw;
 }
 
 .caixaTransparente {
+    position: relative;
     height: 60vw;
     background: transparent;
 }
@@ -99,6 +98,7 @@ header > p > a:hover {
     position: relative;
     top: 8vw;
     left: 5vw;
+    right: 0vw;
     background-color: #00000065;
     width: 38vw;
     height: 45vw;
@@ -107,7 +107,6 @@ header > p > a:hover {
     line-height: 3.2vw;
     text-align: left;
     padding: 5px;
-    
 }
 
 footer {
