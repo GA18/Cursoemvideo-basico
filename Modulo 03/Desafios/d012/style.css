@@ -17,8 +17,7 @@
 
 html, body {
     background-color: black;
-    position: relative;
-    width: 90vw;
+    width: 100%;
 }
 
 .background01 {
@@ -38,15 +37,11 @@ header {
     height: 22vw;
 }
 
-header > h1 {
-    position: relative;
-    top: 4vw;
+header > h1 {  
     font: normal bold 10vw 'PassionOne', Arial;
 }
 
 header > p {
-    position: relative;
-    top: 4vw;
     font: normal bolder 16px verdana, Arial;
 }
 
@@ -68,37 +63,20 @@ header > p > a:hover {
 .caixaPrincipal {
     height: 75vw;
     background: white;
-}
-
-.caixaPrincipal > p {
-    position: relative;
-    top: 12.5vw;
-    left: 5vw;
-    right: 5vw;
     font: normal 3.2vw 'Sriracha', Arial;
     line-height: 3.2vw;
 }
 
 .caixa > p {
-    position: relative;
-    top: 25vw;
-    left: 5vw;
-    right: 5vw;
     font: normal 3.2vw 'Sriracha', Arial;
     line-height: 3.2vw;
 }
 
-.caixaTransparente {
-    position: relative;
-    height: 60vw;
-    background: transparent;
+div {
+    height: 80vw;
 }
 
 .textoEncaixado {
-    position: relative;
-    top: 8vw;
-    left: 5vw;
-    right: 0vw;
     background-color: #00000065;
     width: 38vw;
     height: 45vw;
@@ -110,8 +88,6 @@ header > p > a:hover {
 }
 
 footer {
-    position: relative;
-    top: 5px;
     width: auto;
     height: 30px;
     background-color: black;
@@ -120,12 +96,12 @@ footer {
     font: normal 18px Arial;
 }
 
-footer > a {
+footer > p > a {
     color: white;
     text-decoration: none;
 }
 
-footer > a:hover {
+footer > p > a:hover {
     text-decoration: underline;
 }
 
